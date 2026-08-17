@@ -15,7 +15,7 @@ Software quality assurance testing portfolio for the SESoc Society website, demo
 - [Contact](#contact)
 
 ## Project Overview
-This repository contains the quality assurance deliverables and evidence created while testing the SESoc Society website. It showcases a structured QA process including requirements analysis, test design, test execution, and defect tracking. The portfolio is intended to demonstrate practical QA skills and provide reproducible artifacts for review.
+This repository contains the quality assurance deliverables and evidence created while testing the SESoc Society website. It showcases a structured QA process including requirements analysis, test design, test execution, and defect tracking. This project is intended to demonstrate practical QA skills and provide reproducible artifacts for review.
 
 ## Scope & Objectives
 - Validate core user journeys and public-facing functionality of the SESoc website.
@@ -24,21 +24,15 @@ This repository contains the quality assurance deliverables and evidence created
 - Demonstrate QA best practices including traceability between requirements and tests, clear acceptance criteria, and concise defect documentation.
 
 ## Test Artifacts
-The repository contains (or should contain) the following artifacts:
-- Test Plan — scope, objectives, approach, and entry/exit criteria.
+The repository contains the following artifacts:
 - Test Cases — structured test cases with preconditions, steps, expected results, and priority/severity.
 - Test Execution Reports — results for each test run with status (Pass/Fail/Blocked).
 - Defect Reports — reproducible bug reports with steps to reproduce, screenshots, severity, and status.
-- Exploratory Testing Notes — observations and edge cases found during exploratory sessions.
 
-Suggested directory layout:
-- /test-plan/
-- /test-cases/
-- /test-execution/
-- /defects/
+Directory layout:
+- /test-documentation/
+- /bug-report/
 - /screenshots/
-
-(If these directories are not present, create them and populate with the relevant artifacts.)
 
 ## Testing Approach
 - Manual testing: Execute prioritized, traceable manual test cases for critical user flows.
@@ -52,7 +46,6 @@ Suggested directory layout:
 - Mark tests as Pass / Fail / Blocked / Not Applicable and include the tester name and execution date.
 
 ## Defect Reporting
-A good defect report includes:
 - Summary/title
 - Environment (browser, OS, device)
 - Steps to reproduce (clear and numbered)
@@ -62,12 +55,9 @@ A good defect report includes:
 - Attachments (screenshots, logs, network traces)
 - Linked test case(s) and related artifacts
 
-Use a consistent template (example in /defects/issue-template.md) and, if available, submit defects to the project’s issue tracker with the same structured details.
-
 ## Test Environment
-Document the test environments used:
-- Browsers: Chrome, Firefox, Safari, Edge (specify versions)
-- Devices: Desktop, tablet, mobile (screen sizes)
+- Browsers: Chrome, Firefox, Safari, Edge
+- Devices: Desktop, tablet, mobile 
 - OS: Windows, macOS, iOS, Android
 - Network: Local, VPN, throttled (if applicable)
 - Any test data or accounts used for validation
@@ -87,8 +77,6 @@ Track and report the following metrics to stakeholders:
 - Test coverage against documented requirements
 - Open vs resolved defects over time
 
-Include a summary report after each test cycle and archive detailed execution logs in /test-execution/.
-
 ## Contributing
 Contributions are welcome — please follow these guidelines:
 - Use clear, descriptive filenames for new artifacts.
@@ -101,7 +89,7 @@ This repository is provided for educational and demonstration purposes. Include 
 
 ## Contact
 For questions or feedback about the QA work, contact:
-- Owner: gihangreshan1
+- Owner: gihanmadurapriya
 - Email: gihangreshan@gmail.com
 
 ---
