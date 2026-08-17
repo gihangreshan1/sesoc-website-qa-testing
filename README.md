@@ -56,11 +56,10 @@ Directory layout:
 - Linked test case(s) and related artifacts
 
 ## Test Environment
-- Browsers: Chrome, Firefox, Safari, Edge
-- Devices: Desktop, tablet, mobile 
-- OS: Windows, macOS, iOS, Android
-- Network: Local, VPN, throttled (if applicable)
-- Any test data or accounts used for validation
+- Browsers: Chrome (Version 151.0.7922.138)
+- Devices: Desktop 
+- OS: Windows
+- Network: Local
 
 ## How to Use This Repository
 1. Clone the repository:
